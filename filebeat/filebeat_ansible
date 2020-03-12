@@ -1,0 +1,17 @@
+---
+- hosts: remote
+  tasks:
+    - name: install the filebeat rpm from a remote repo
+      yum:
+        name: https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.8.7-x86_64.rpm
+        state: present 
+
+    - name: Stop service filebeat, if started
+      service:
+        name: filebeat
+        state: started
+
+    - name: Stop service filebeat, if started
+      service:
+        name: filebeat
+        state: stopped
