@@ -1,0 +1,15 @@
+---
+- hosts: remote
+  tasks:
+    - name: copy file to remote host
+      copy:
+        src: /root/datadog/datadog.repo
+        dest: /etc/yum.repos.d/datadog.repo
+
+    - name: copy file to remote host
+      copy:
+        src: /root/datadog/test.sh
+        dest: /tmp/test.sh
+
+    - name: Run a script 
+      script: /root/datadog/test.sh
