@@ -1,0 +1,244 @@
+Terraform
+----------------
+what is terraform --IAC
+what is provider ?
+what is remote state ?
+what is lock ?
+tell me terraform commands ?
+if i tamper terraform resources, if you apply will it work ?
+i have deleted terraform tfstate ? if i apply what will happen ?
+verion ?
+terraform project structure 
+what is terraform.vars ?
+did you wrote modules ?
+what is resource ?
+did you hardcode your values in tf or exteral ?
+
+
+
+ansible
+==========
+what is ansible ?
+difference between ansible and terraform and kubernets yaml ?
+what is galaxy ?
+what is adhoc command to check servers ?
+what is playbook ?
+what playbook you have written ?
+what purpose you are writing the playbook ?
+what is role ?
+what is playbook and role and task ?
+tower ?
+tomcat playbook 
+apache plyabook
+nginx playbook
+deployment playbook
+
+Docker
+=========
+did you wrote the docker file ?
+tell me the docker lines
+entrypoint and cmd ?
+what is multistage docker file ?
+why we use ?
+tell me docker commands ?
+login
+delete
+rm
+network types
+storage and volumes
+mounting
+linking
+copy and add 
+logs
+containers status 
+docker-compose?
+depends
+
+k8
+====
+commands
+pod check
+pod login
+pod fail , reason 
+service
+service discovery 
+namespace
+objects
+architecture -----------------------
+rs and rc
+docker-swarm and kubernetes 
+ingress
+how are you exposing the pods to outside the world
+service and ingress
+persitence volume and pvc
+statefulset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jenkins
+===========
+how do you give permission to specif job ?
+problem-matrix security
+
+what is upstream/downstream ?
+how do you pass params from one job to other job ?
+taking backup /(thin plugin/ec2 backup/folder)
+master and slave setup ?
+how to setup password less setup b.w two servers
+jenkinsfile ? stages'
+what is the benefit with shared libraries ?
+saferestart 
+job failed , hwo do you troubleshoot 
+
+how many slaves
+how many jobs
+webhook
+what is ci and cd 
+what are the build tools
+npm
+maven----lifecycles,pom.xml,parent and child
+ant--build.xml 
+what are the plugins 
+
+
+
+AWS
+========
+autoscale
+lb
+eks and docker 
+storage types
+rds 
+schedule
+
+on-demand and reserved and spot
+cloudwatch
+alerts---SNS
+sg , nacl , vpc peering 
+what is diff sg and nacl ?
+role and user 
+
+resources 
+
+linux
+---------
+shell scripts
+what is the scenario
+scenario
+
+10 , 30 50, 34, 45, 80
+second biggest number
+second smallest
+
+
+$?
+#@ --argument
+#$ --count of argument
+$$ --current shell script/process id
+
+$1 --argument
+$0- shell script name
+
+df 
+du
+find---x days x size file
+aws
+sed
+
+monitoring
+===========
+datadog
+promethus in k8---grafana
+
+log
+efk/splunk forwarder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infra----aws
+monitoring/lggoing--cw/datadog/elk
+iac: terraform
+cm : ansible
+scripting : shell script
+os : linux,ubuntu,centos
+ci : jenkins
+cd: jenkins / asible
+container : docker /d-c/k8
+scm : github
+
+
+
+github
+==============
+fetch and pull 
+pull --automatically merges local changes
+fetch = fetch + merge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
